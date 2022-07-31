@@ -1,0 +1,168 @@
+:root{
+  --g: #D5D5D7;
+  --go: #D5D5D7D9;
+  --dp: #A1639C;
+  --lp: #A990AE;
+  --p: #CCB2BB;
+  --w: white;
+}
+
+.bg-container {
+  background-image: url(a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-position: center center;
+}
+
+.class{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+
+.classt{
+  background-color: var(--go);
+  padding: 5px;
+  margin: 10px;
+}
+
+.classp{
+  background-color: var(--go);
+  padding: 5px;
+  margin: 10px;
+}
+
+img{
+  border: solid black;
+  border-radius: 50%;
+  margin: 25px 25px 25px 50px;
+}
+
+header{
+  display: flex;
+}
+
+h1{
+  text-align: center;
+  color: var(--dp);
+  background: var(--p);
+}
+
+p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2{
+  text-align: center;
+  color: var(--dp);
+  background: var(--g);
+}
+
+.about{
+  background-color: var(--go);
+  margin: 25px 50px 25px 25px;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+.about:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0px;
+  height: 0px;
+  border-top: 33px solid transparent;
+  border-right: 46px solid var(--go);
+  border-bottom: 33px solid transparent;
+}
+
+
+    .moon {
+      display: flex;
+      margin-left: 90%;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 var(--p);
+
+    }
+
+    footer {
+      background-color: black;
+    }
+
+    footer p{
+      color: var(--lp);
+      font-size: 30px;
+    }
+
+    a{
+      color: var(--lp);
+      text-decoration: none;
+      font-size: 30px;
+    }
+
+    a:hover{
+      color: var(--lp);
+      text-decoration: underline;
+    }
+
+    a:visited{
+      color: var(--w);
+    }
+
+    .ab{
+      background-color: var(--go);
+      padding: 5px;
+      margin: 25px;
+    }
+
+    footer p i{
+      color: var(--lp);
+    }
+
+    @media screen and (max-width: 600px) {
+
+header{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+}
+
+.about::before{
+  display: none;
+}
+
+.imgone{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ .class{
+   grid-template-columns: 1fr;
+   grid-auto-rows: 1fr;
+ }
+
+ .classt, .classp{
+grid-column: auto;
+grid-row: auto;
+ }
+
+ .moon{
+   display: none;
+ }
+
+ footer{
+   text-align: center;
+ }
+    }
