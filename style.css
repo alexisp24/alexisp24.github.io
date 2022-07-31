@@ -4,7 +4,6 @@ Date: 7-30-2022
 
 Filename: style.css
 */
-
 :root {
   --g: #D5D5D7;
   --go: #D5D5D7D9;
@@ -84,12 +83,13 @@ h2 {
   font-size: 30px;
 }
 
-.bait a{
+.bait a {
   background-color: var(--dp);
   border: solid var(--lp);
   border-radius: 50px;
   padding: 5px;
 }
+
 .about {
   background-color: var(--go);
   margin: 25px 50px 25px 25px;
@@ -157,7 +157,6 @@ a:visited {
 footer p i {
   color: var(--lp);
 }
-
 
 @media screen and (max-width: 1000px) {
   .moon {
