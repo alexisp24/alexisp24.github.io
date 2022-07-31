@@ -1,0 +1,332 @@
+/*
+Author: Alexis Pearson
+Date: 7-19-2022
+
+Filename: styles.css
+*/
+
+html{
+  background-color: #37628d;
+}
+
+.img{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
+}
+
+img{
+  width: 100%;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+.link ul {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+   list-style-type: none;
+  justify-items: center;
+}
+.link li{
+  background-color: #10345b;
+  border: solid 3px white;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  padding: 20px;
+}
+a:link{
+text-decoration:none;
+color: #c8c4b1;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color: grey;
+}
+
+h1{
+  text-align: center;
+  background-color: #a29b7b;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  color: #2579d4;
+  border: #928b67;
+}
+.offer{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  background-color: #aac4de;
+  margin: 20px;
+  padding: 0px 0px 10px 0px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+.offer h1 {
+  font-size: 40px;
+  padding: 0px
+}
+
+.three{
+  grid-column: 1 / 3;
+  width: 100%;
+}
+
+.offer ul{
+  list-style: circle;
+  font-size: 35px;
+  color: #154579;
+}
+
+.info{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  background-color: #aac4de;
+  padding: 0px;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.info p{
+    color: #154579;
+    font-weight: 500;
+}
+
+.hours{
+  grid-area: 1 / 2 / span 2 /2;
+  background-color: #c8c4b1;
+  padding: 0px 50px 100px 50px;
+  border: solid 3px #77a0ca;
+  margin: 5px;
+}
+
+.hours p{
+background-color: #77a0ca;
+border: solid  white;
+font-weight: bold;
+padding: 20px 0px 20px 0px;
+text-align: center;
+}
+
+.info h1{
+  background-color: #77a0ca;
+  color: #154477;
+  border: solid #5d8ec0;
+}
+
+.about{
+  height: 200px;
+  border: solid 3px #77a0ca;
+  margin: 10px;
+  background-color: #c8c4b1;
+  text-align: center;
+}
+
+
+.facebook{
+  border: solid 3px #77a0ca;
+  margin: 10px;
+  background-color: #c8c4b1;
+}
+
+.f{
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+
+}
+.facebook a:link{
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  background: #0a223c;
+  border: solid #0a223c;
+  border-radius: 10px;
+
+}
+
+.facebook a:visited{
+  color: white;
+  text-decoration: line-through;
+}
+
+.facebook a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.add{
+  background-color: #aac4de;
+  padding: 10px;
+  border: solid 3px white;
+  border-radius: 10px;
+  margin: 25px;
+  color: #154579;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form{
+  background-color: #aac4de;
+  padding: 10px;
+  border: solid 3px white;
+  border-radius: 10px;
+  margin: 25px;
+  color: #154579;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.p{
+  text-align: center;
+  background-color:  #154579;
+  color: white;
+}
+
+fieldset{
+  border-color: white;
+}
+
+input{
+  width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  background: #0a223c;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer{
+  color: #0a223c;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #aac4de;
+  border: solid 3px white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+
+footer a:link{
+  color: #0a223c;
+  text-decoration: underline;
+}
+
+footer a:visited{
+  color: #0a223c;
+  text-decoration: underline;
+}
+
+.vid{
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  border: solid 5px black;
+}
+
+.bait{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    background-color: #aac4de;
+    padding: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+.h1{
+  width: 100%;
+  grid-area: 1 /1 / 1 /4;
+  padding: 0px;
+  border: solid 2px white;
+  font-size: 50px;
+}
+
+.p{
+  width: 100%;
+  grid-area: 2 /1 / 2 /4;
+  padding: 0px;
+  font-size: 25px;
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+}
+
+.h4{
+  width: 100%;
+  grid-area: 4 /1 / 4 /4;
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+}
+
+.bait h3{
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background: #0a223c;
+  border: solid #0a223c;
+}
+
+.livebait, .livefish, .coldbait{
+  border: solid 3px white;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.bait ul {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 681px ) {
+
+.info{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.hours, .about, .facebook{
+  grid-column: auto;
+  grid-row: auto;
+}
+
+.facebook{
+  padding: 0px 0px 35px 0px;
+}
+
+.link ul{
+grid-template-columns: repeat(1, 1fr);
+}
+
+
+.bait{
+display: block;
+}
+.livebait, .livefish, .coldbait, .h1 .p .h4{
+  grid-column: auto;
+  grid-row: auto;
+  margin: 5px;
+}
+
+.h1{
+  border: none;
+}
+
+}
