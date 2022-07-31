@@ -63,6 +63,25 @@ h2 {
   background: var(--g);
 }
 
+.bait {
+  background-color: var(--dp);
+  padding: 5px;
+  margin: 25px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.bait p {
+  color: white;
+  font-size: 30px;
+}
+
+.bait a{
+  background-color: black;
+  border: solid var(--lp);
+  border-radius: 50px;
+  padding: 5px;
+}
 .about {
   background-color: var(--go);
   margin: 25px 50px 25px 25px;
@@ -128,25 +147,6 @@ footer p i {
   color: var(--lp);
 }
 
-.bait {
-  background-color: var(--dp);
-  padding: 5px;
-  margin: 25px;
-  text-align: center;
-  border-radius: 50px;
-}
-
-.bait p {
-  color: white;
-  font-size: 30px;
-}
-
-.bait a{
-  background-color: black;
-  border: solid var(--lp);
-  border-radius: 50px;
-  padding: 5px;
-}
 
 @media screen and (max-width: 1000px) {
   .moon {
