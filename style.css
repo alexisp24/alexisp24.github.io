@@ -129,6 +129,13 @@ h2{
       color: var(--lp);
     }
 
+    @media screen and (max-width: 1000px) {
+
+.moon{
+  display: none;
+}
+    }
+
     @media screen and (max-width: 600px) {
 
 header{
@@ -156,10 +163,6 @@ margin-right: auto;
  .classt, .classp{
 grid-column: auto;
 grid-row: auto;
- }
-
- .moon{
-   display: none;
  }
 
  footer{
